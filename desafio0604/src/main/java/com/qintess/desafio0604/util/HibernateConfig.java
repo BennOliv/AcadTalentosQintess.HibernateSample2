@@ -38,7 +38,6 @@ private static SessionFactory sessionFactory;
 				prop.put(Environment.DIALECT, "org.hibernate.dialect.H2Dialect");
 				
 				prop.put(Environment.SHOW_SQL, "true");
-				//comentei porque fica dando erro (por casua das relações)
 				prop.put(Environment.HBM2DDL_AUTO, "create-drop");
 				
 				config.setProperties(prop);
